@@ -15,7 +15,7 @@ class GirlFriend{
     private GirlFriend(String name){
         this.name = name;
     };
-    static GirlFriend Instance = new GirlFriend("Jennifer");
+    private static GirlFriend Instance = new GirlFriend("Jennifer");
 
     public static GirlFriend getInstance() {
         return Instance;

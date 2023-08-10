@@ -21,11 +21,20 @@ public class ClientImage {
             output.write(buf,0,readLen);
         }
         System.out.println("Image transition finished");
-
+        output.flush();//需要刷新
         socket.shutdownOutput();//标记关闭输入
 
+
+        char[] buf2 = new char[8];
+        BufferedReader Server_bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+        while((readLen = Server_bufferedReader.read(buf2)) != -1){
+            System.out.print(new String(buf2,0,readLen));
+        }
+
+        Server_bufferedReader.close();
         file.close();
         output.close();
+
         socket.close();
     }
 }

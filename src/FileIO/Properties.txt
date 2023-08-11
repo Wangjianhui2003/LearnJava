@@ -1,0 +1,4 @@
+#this is a comment
+#Fri Aug 11 15:54:35 CST 2023
+pwd=1234
+user=Emily

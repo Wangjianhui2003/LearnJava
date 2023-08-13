@@ -1,4 +1,4 @@
-//输入指令终止线程
+package MultiThreading;//输入指令终止线程
 import java.util.Scanner;
 
 public class ThreadQuit {

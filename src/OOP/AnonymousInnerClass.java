@@ -1,3 +1,5 @@
+package OOP;
+
 //匿名内部类应用-直接作为参数传递
 public class AnonymousInnerClass {
     public static void main(String[] args) {

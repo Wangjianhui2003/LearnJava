@@ -1,3 +1,5 @@
+package OOP;
+
 //equals方法重写
 public class RewriteEqual {
     public static void main(String[] args) {

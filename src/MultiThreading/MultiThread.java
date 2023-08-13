@@ -1,3 +1,5 @@
+package MultiThreading;
+
 //多线程实现,继承,接口,终止多线程
 public class MultiThread {
     public static void main(String[] args) throws InterruptedException{

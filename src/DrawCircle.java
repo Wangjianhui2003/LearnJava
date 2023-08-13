@@ -24,7 +24,7 @@ class Mypanel extends JPanel{
 //        g.drawOval(10,10,100,100);
 //        g.drawLine(10,10,100,100);
 //        g.drawRect(10,10,100,100);//矩形
-//        g.setColor(Color.blue);//设置颜色
+//        g.setColor(OOP.Color.blue);//设置颜色
 //        g.fillRect(10,10,100,100);//填充
         Image image = Toolkit.getDefaultToolkit().getImage(Mypanel.class.getResource("LinaImage.jpg"));
         g.drawImage(image,10,10,153,216,this);

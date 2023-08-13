@@ -1,3 +1,5 @@
+package MultiThreading;
+
 //线程插队,join方法
 public class ThreadMethod {
     public static void main(String[] args) throws InterruptedException {

@@ -1,3 +1,6 @@
+package MultiThreading;
+
+//线程阻塞
 public class ThreadSyncronized {
     public static void main(String[] args) {
         card card1 = new card();

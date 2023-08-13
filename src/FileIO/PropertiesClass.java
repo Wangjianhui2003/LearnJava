@@ -10,7 +10,7 @@ import java.util.Properties;
 public class PropertiesClass {
     public static void main(String[] args) throws IOException {
         Properties properties = new Properties();
-        properties.load(new FileReader("C:\\Users\\wjh2\\JavaProject\\LearnJava\\src\\FileIO\\Properties.txt"));
+        properties.load(new FileReader("C:\\Users\\wjh2\\JavaProject\\LearnJava\\src\\FileIO\\Properties.properties"));
         properties.list(System.out);//罗列所有
 
         String user = properties.getProperty("user");//获取
@@ -25,7 +25,7 @@ public class PropertiesClass {
         properties.setProperty("user","Emily");//创建或修改
         properties.setProperty("pwd","1234");
 
-        properties.store(new FileWriter("C:\\Users\\wjh2\\JavaProject\\LearnJava\\src\\FileIO\\Properties.txt"),
+        properties.store(new FileWriter("C:\\Users\\wjh2\\JavaProject\\LearnJava\\src\\FileIO\\Properties.properties"),
                 "this is a comment");//存储
 
     }

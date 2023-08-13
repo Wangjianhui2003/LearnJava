@@ -1,3 +1,5 @@
+package OOP;
+
 //GirlFriend饿汉式设计模式
 //BoyFriend懒汉式设计模式
 public class SinglePattern {

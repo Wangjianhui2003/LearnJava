@@ -1,3 +1,5 @@
+package OOP;
+
 public class Interface {
     public static void main(String[] args) {
         USB[] usb_set = new USB[2];
@@ -19,7 +21,7 @@ interface USB{
 class Phone implements USB{
     @Override
     public void work() {
-        System.out.println("Phone is working");
+        System.out.println("OOP.Phone is working");
     }
     void call(){
         System.out.println("Calling...");
@@ -29,6 +31,6 @@ class Phone implements USB{
 class Camera implements USB{
     @Override
     public void work() {
-        System.out.println("Camera is working");
+        System.out.println("OOP.Camera is working");
     }
 }

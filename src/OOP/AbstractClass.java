@@ -1,4 +1,4 @@
-//抽象类应用-模版设计
+package OOP;//抽象类应用-模版设计
 
 public class AbstractClass {
     public static void main(String[] args) {

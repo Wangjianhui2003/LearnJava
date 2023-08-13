@@ -1,8 +1,10 @@
+package OOP;
+
 //继承练习
 //IDEA快速创建构造方法
 public class ExtendsExercise {
     public static void main(String[] args) {
-        PC pc = new PC(1,1,1,"a PC");
+        PC pc = new PC(1,1,1,"a OOP.PC");
         NotePad notepad = new NotePad(2,2,2,"green");
         pc.getDetails();
         notepad.getDetails();

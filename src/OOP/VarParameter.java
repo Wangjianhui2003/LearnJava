@@ -1,3 +1,5 @@
+package OOP;
+
 //可变参数
 public class VarParameter{
 	public static void main(String[] args)

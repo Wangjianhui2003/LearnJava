@@ -1,4 +1,4 @@
-package PloyArray;
+package OOP.PloyArray;
 
 public class Teacher extends Person{
     int teacher_id;

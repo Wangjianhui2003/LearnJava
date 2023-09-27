@@ -1,4 +1,4 @@
-package PloyArray;
+package OOP.PloyArray;
 
 public class Person {
     int age;

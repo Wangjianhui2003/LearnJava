@@ -1,5 +1,5 @@
 //多态数组练习 instanceof 转型
-package PloyArray;
+package OOP.PloyArray;
 
 public class PloyArray {
     public static void main(String[] args) {
